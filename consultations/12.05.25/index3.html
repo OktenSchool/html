@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .grid{
+            display: grid;
+            grid-template-rows: 100vh;
+            grid-template-columns: 400px 200px 300px;
+            gap: 40px;
+        }
+        .grid .item:nth-child(1){
+            background: #D9D9D9;
+            height: 100%;
+        }
+        .grid .item:nth-child(2){
+            background: #87A083;
+            height: 100%;
+        }
+        .grid .item:nth-child(3){
+            background: #A08686;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+</body>
+</html>
