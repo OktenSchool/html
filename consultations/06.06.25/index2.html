@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        p span{
+            background:  #DF66A5;
+            position:relative ;
+        }
+        p span::before{
+            content: "";
+            width: 50vw;
+            height: 18.18px;
+            position: absolute;
+            background: linear-gradient(270deg, #DF66A5, #FFFFFF);
+            transform: translateX(-100%);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p><span>Eumipsum</span> officia optio reiciendis.</p>
+        <p>Aliquam consectetur </p>
+        </div>
+    </main>
+</body>
+</html>
