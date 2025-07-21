@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main-section{
+            width: 100%;
+            height: 200px;
+            border:2px solid grey;
+        }
+        .section{
+            width: 100%;
+            height: 100px;
+            border:1px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <section class="main-section flex">
+        <p>Lorem ipsum dolor sit.</p>
+    </section>
+    <section class="main-section flex">
+        <p>Lorem ipsum dolor sit.</p>
+    </section>
+    <section class="main-section">
+        <div class="section flex"></div>
+        <div class="section flex"></div>
+    </section>
+    <div></div>
+    <div></div>
+    <main class="main-section flex"></main>
+</body>
+</html>

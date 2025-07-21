@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .bg-box{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+        .bg-box::before{
+            content: "";
+            height: 100vh;
+            width: 100%;
+            background-image: url('https://www.exkursia.com.ua/wp-content/uploads/2024/02/Bukovel-Ohliadove-koleso01.jpg');
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            z-index: -1;
+            opacity: 0.5;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <section class="bg-box">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+</body>
+</html>

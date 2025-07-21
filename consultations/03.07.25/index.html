@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .item{
+            width: 300px;
+            height: 170px;
+            background-image: url("https://eventadmin.stockholmlive.com/uploads/img/67e3e262ebefb_4000.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 100px;
+        }
+        p{
+            color: white;
+            opacity: 0;
+            transition: 2s;
+        }
+        .item:hover p{
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="item">
+        <p>Lorem ipsum dolor</p>
+    </div>
+</body>
+</html>
