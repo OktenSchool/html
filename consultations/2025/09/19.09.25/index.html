@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        section{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle{
+            width: 100px;
+            height: 100px;
+            background: lightsalmon;
+            border-radius: 50%;
+            animation: circle linear 3s infinite;
+        }
+        @keyframes circle {
+            0%{
+                transform: translate(-200px, -200px);
+            }
+            25%{
+                transform: translate(200px, -200px);
+            }
+            50%{
+                transform: translate(200px, 200px);
+            }
+            75%{
+                transform: translate(-200px, 200px);
+            }
+            100%{
+                transform: translate(-200px, -200px);
+            }
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div class="circle"></div>
+</section>
+</body>
+</html>
