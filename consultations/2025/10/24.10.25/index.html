@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+        }
+        .flex-2{
+            display: none;
+            justify-content: center;
+        }
+        .pink{
+            background: pink;
+            width: 20%;
+            height: 50vh;
+        }
+        .yellow{
+            background: yellow;
+            width: 20%;
+            height: 50vh;
+        }
+        .green{
+            background: green;
+            width: 20%;
+            height: 50vh;
+        }
+        .red{
+            background: red;
+            width: 20%;
+            height: 50vh;
+        }
+        .blue{
+            background: blue;
+            width: 20%;
+            height: 50vh;
+        }
+
+        @media screen and (max-width: 480px){
+              .flex{
+                  display: none;
+              }
+                .flex-2{
+                    display: flex;
+                }
+        }
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="pink"></div>
+    <div class="yellow"></div>
+    <div class="green"></div>
+    <div class="red"></div>
+    <div class="blue"></div>
+</div>
+
+<div class="flex-2">
+    <div class="yellow"></div>
+    <div class="pink"></div>
+    <div class="red"></div>
+    <div class="green"></div>
+    <div class="blue"></div>
+</div>
+</body>
+</html>
