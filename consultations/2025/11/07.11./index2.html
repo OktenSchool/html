@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        div{
+            display: grid;
+            grid-template-areas:
+            "header header header"
+            "left-section center-section right-section"
+            "footer footer footer";
+            grid-template-columns: 20vw 60vw 20vw;
+            grid-template-rows: 20vh 60vh 20vh;
+        }
+        header{
+            grid-area: header;
+            border: 2px solid;
+            background: lightcoral;
+        }
+        footer{
+            grid-area: footer;
+            border: 2px solid;
+            background: khaki;
+        }
+        .left{
+            grid-area: left-section;
+            border: 2px solid;
+            background: darkred;
+        }
+        .center{
+            grid-area: center-section;
+            border: 2px solid;
+            background: seagreen;
+        }
+        .right{
+            grid-area: right-section;
+            border: 2px solid;
+            background: skyblue;
+        }
+        @media screen and (max-width: 480px){
+            div{
+                grid-template-areas:
+                "header header"
+                "left-section center-section"
+                "right-section right-section"
+                "footer footer";
+                grid-template-columns: 40vw 60vw;
+                grid-template-rows: 20vh 40vh 20vh 20vh;
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <header></header>
+        <section class="left"></section>
+        <section class="center"></section>
+        <section class="right"></section>
+        <footer></footer>
+    </div>
+</body>
+</html>
