@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width: 1070px;
+            margin: 30px auto 68px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 49px;
+        }
+        header ul a{
+            text-decoration: none;
+            color: #696871;
+            font-family: "DM Sans", sans-serif;
+            font-weight: bold;
+        }
+        .active-link{
+            border-bottom: 2px solid #5454D4;
+            color: #19191B;
+        }
+        header button{
+            width: 210px;
+            height: 60px;
+            border-radius: 10px;
+            background: #FF7143;
+            border: none;
+            font-size: 17px;
+            font-family: "DM Sans", sans-serif;
+            font-weight: bold;
+            color: #FFFFFF;
+            letter-spacing: -0.53px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Logo.svg" alt="">
+        <nav>
+            <ul>
+                <li><a href="#" class="active-link">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+        <button>Get Started</button>
+    </header>
+</body>
+</html>
