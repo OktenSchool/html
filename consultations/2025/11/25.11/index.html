@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        header{
+            height: 15vh;
+            width: 100%;
+            background: lightpink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+        }
+        header ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        header ul a{
+            text-decoration: none;
+            color: white;
+        }
+        .item{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding-bottom: 20px;
+        }
+        .item a{
+            text-decoration: none;
+            color: white;
+        }
+        #home{
+            background: lightskyblue;
+        }
+        #about{
+            background: lightslategrey;
+        }
+        #shop{
+            background: lightsteelblue;
+        }
+        .circle-top{
+            width: 70px;
+            height: 70px;
+            background: white;
+            box-shadow: 1px 2px 4px 0 rgba(0,0,0,0.62);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        }
+        .link-top{
+            text-decoration: none;
+            color: lightslategrey;
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#shop">Shop</a></li>
+        </ul>
+    </header>
+    <section class="item" id="home">
+        <a href="#about">down</a>
+    </section>
+    <section class="item" id="about">
+        <a href="#shop">down</a>
+    </section>
+    <section class="item" id="shop"></section>
+    <a href="#home" class="link-top"><div class="circle-top"><span>&#9650;</span></div></a>
+</body>
+</html>
