@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .lorem{
+            appearance: none;
+            width: 16px;
+            height: 16px;
+            border: 1px solid lightseagreen;
+            border-radius: 2px;
+            margin: 0;
+        }
+        .lorem:checked{
+            background-image: url('https://png.klev.club/uploads/posts/2024-04/png-klev-club-yxt6-p-telepuziki-png-19.png');
+            background-size: cover;
+        }
+        label{
+            display: block;
+            margin-top: 5px;
+        }
+        input:focus{
+            border-color: darkorange;
+            outline: none;
+            border-radius: 2px;
+            border-style: double;
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    <label>
+        <input type="checkbox" name="lorem" class="lorem">
+        lorem
+    </label>
+    <br>
+    <label for="item">Зробіть свій вибір</label>
+    <select name="item" id="item">
+        <optgroup label="group-1">
+            <option value="lorem1">lorem -1</option>
+            <option value="lorem2">lorem -2</option>
+            <option value="lorem3">lorem -3</option>
+            <option value="lorem4">lorem -4</option>
+            <option value="lorem5">lorem -5</option>
+        </optgroup>
+        <optgroup label="group-2">
+            <option value="lorem1">lorem -1</option>
+            <option value="lorem2">lorem -2</option>
+            <option value="lorem3">lorem -3</option>
+            <option value="lorem4">lorem -4</option>
+            <option value="lorem5">lorem -5</option>
+        </optgroup>
+        <optgroup label="group-3">
+            <option value="lorem1">lorem -1</option>
+            <option value="lorem2">lorem -2</option>
+            <option value="lorem3">lorem -3</option>
+            <option value="lorem4">lorem -4</option>
+            <option value="lorem5">lorem -5</option>
+        </optgroup>
+    </select>
+
+    <label> Зробіть свій вибір
+        <label><input type="radio" name="choice" value="yes"> yes</label>
+        <label><input type="radio" name="choice" value="no"> no </label>
+    </label>
+
+    <label for="name">введіть своє імʼя   </label>
+    <input type="text" name="name" id="name" placeholder="text" required> <sup>*</sup>
+
+
+</form>
+</body>
+</html>
