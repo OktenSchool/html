@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas:
+        "header header header"
+        "section1 section2 section3"
+        "footer footer footer";
+}
+header{
+    background: lightsteelblue;
+    grid-area: header;
+}
+.left{
+    background: lightgreen;
+    grid-area: section1;
+}
+.center{
+    background: lightpink;
+    grid-area: section2;
+}
+.right{
+    background: lightskyblue;
+    grid-area: section3;
+}
+footer{
+    background: lightgrey;
+    grid-area: footer;
+}
