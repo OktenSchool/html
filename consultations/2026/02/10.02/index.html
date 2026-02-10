@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #test{
+            /*border: 1px solid;*/
+        animation:canvas 1s linear 1 ;
+        }
+        @keyframes canvas {
+            0%{
+                opacity: 0;
+                transform: rotate(-10deg);
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        p:nth-of-type(2){
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <p>Lorem ipsum dolor.</p>
+    <p>Fugiat porro, quibusdam.</p>
+    <p>Consequuntur dolores, ratione?</p>
+    <p>Corporis, eligendi, maiores?</p>
+    <p>Beatae, minima, quo!</p>
+    <canvas id="test" width="400" height="400" ></canvas>
+
+    <script>
+        const canvas = document.getElementById("test");
+        const x = canvas.getContext("2d");
+
+        x.fillStyle="skyblue";
+        x.strokeStyle="red";
+
+        x.fillRect(30, 30, 150, 75);
+        x.strokeRect(20, 20, 150, 75);
+
+        x.beginPath();
+        x.arc(200,200, 50, 0, Math.PI*2);
+        x.fill();
+        x.stroke();
+
+        x.beginPath();
+        x.moveTo(0,0);
+        x.lineTo(400, 400);
+        x.strokeStyle="green";
+        x.stroke();
+
+    </script>
+</body>
+</html>
