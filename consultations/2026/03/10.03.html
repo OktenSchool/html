@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content{
+            width: 50%;
+            padding: 10px 30px;
+            background: lightpink;
+            text-align: center;
+        }
+        .content p{
+            font-size: 20px;
+        }
+        .circle-1{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: rgba(255, 160, 122, 0.5);
+            position: absolute;
+            top: -100px;
+            left: -30px;
+        }
+        .circle-2{
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background: rgba(255, 160, 122, 0.8);
+            position: absolute;
+            top: 300px;
+            left: 300px;
+            z-index: -1;
+        }
+        .circle-3{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: rgba(255, 160, 122, 0.3);
+            position: absolute;
+            bottom: 300px;
+            right: 300px;
+            z-index: -1;
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet animi aperiam culpa debitis, deserunt, distinctio dolorem doloremque doloribus, enim ex fugiat illo in ipsam itaque laudantium maxime modi nam placeat quasi quibusdam reprehenderit sunt. Cupiditate eveniet quaerat quibusdam reiciendis sit, temporibus voluptatum? Amet commodi dolore natus nesciunt numquam perferendis perspiciatis provident quam vel vero! Amet architecto debitis inventore laudantium nisi obcaecati omnis optio unde vero! A architecto blanditiis deleniti, deserunt dolores enim eum excepturi, explicabo iste, placeat reprehenderit sed ut. Commodi consequatur eaque ex facere nam nemo neque quas quidem rem tenetur? Architecto explicabo illum placeat quia quis veritatis!</p>
+    </div>
+
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+    <div class="circle-3"></div>
+</section>
+</body>
+</html>
