@@ -1,0 +1,115 @@
+.one-posotion{
+    height: 692px;
+    background-color:#24204A;
+    padding: 180px 0 101px 0;
+    box-sizing: border-box;
+}
+
+.one_posotion__w-1153{
+    width: 1153px;
+    height: 100%;
+    margin: 0 auto;
+
+
+}
+
+.one_posotion__w-1153 .one-position{
+    width: 145px;
+    height: 41px;
+    opacity: 1;
+    border-radius: 8px;
+    margin-bottom: 32px;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 1.8px;
+    border: none;
+    background: #8E88C1;
+}
+
+.one_posotion__w-1153 .button-about{
+    width: 200px;
+    height: 56px;
+    opacity: 1;
+    border-radius: 8px;
+    margin-top: 32px;
+
+    background: #3F50E7;
+    box-shadow: 0px 6px 20px 0px #00FFE033;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.one_posotion__w-1153 h1{
+    width: 262px;
+    height: 88px;
+    opacity: 1;
+
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 5%;
+
+    color: #FFFFFF;
+
+}
+
+.one_posotion__w-1153 p{
+    width: 570px;
+    height: 85px;
+    opacity: 1;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 5%;
+
+    color:#8E88C1;
+}
+
+.one_posotion__w-1153 div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.one-posotion div:nth-child(2){
+    width: 375;
+    height: 411;
+    padding-top: 180px;
+    padding-left: 893px;
+    opacity: 1;
+    border-radius: 8px;
+
+    background: #827EAC;
+    box-shadow: 0px 4px 50px 0px #00000040;
+}
+
+.lorem-ipsum{
+    height: 764px;
+    background-color:  #071341;
+}
+
+.one_posotion__w-1153{
+    width: 570px;
+    height: 85px;
+    opacity: 1;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 5%;
+}
