@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 3px solid black;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: teal;
+}
+.list{
+    padding: 50px 20px;
+    background: lightyellow;
+}
+.list ul>li>ul{
+    color: crimson;
+    padding-left: 20px;
+    list-style-type: square;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
